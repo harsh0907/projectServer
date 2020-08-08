@@ -1,0 +1,19 @@
+Fronend (azhru)
+
+
+1. add email varification at time of bulding.
+2. rating cannot be update in both mecha and mechaorganiization.
+3. when customer select to a mecha at api /cust/selectmecha this then customer app will freez.
+   it will be freez untill mecha cannot reply in yes or no.
+   after no that mecha will remove from list and will sespend for some time.
+4. ask about rating system. how rating will calculate. 
+5. /cust/checkpoint api will be implement at frontend if 0 will occure that means you have to 
+   refresh whole mecha list 
+6. orgamecha will not use this api /cust/checkpoint
+7. if a mecha is organization then itial mecha will be 0 and if iolation mecha then mecha no. will be defalut 1
+8. both mecha will check again when they complete there task
+
+
+
+
+/mecha/done  have to complete
